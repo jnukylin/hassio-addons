@@ -1,3 +1,3 @@
-## [v5.6.3] - 2023-10-17
+## [v6.1.1] - 2024-2-1
 
 - Publish the first version of the add-on
