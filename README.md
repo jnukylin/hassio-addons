@@ -1,5 +1,5 @@
-## dscao Home Assistant add-ons
-This is a collection of Home Assistant add-ons.
+## jnukylin Home Assistant add-ons
+This is a collection of Home Assistant add-ons.Learning from dscao.
 
 ## How to add this add-on repository to your Home Assistant install
 Running the Development Version
