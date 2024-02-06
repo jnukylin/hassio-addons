@@ -3,7 +3,7 @@ name: DDNS-GO
 version: v6.1.1
 slug: ddns-go
 description: 简单好用的DDNS。自动更新域名解析到公网IP(支持阿里云、腾讯云、Dnspod、Cloudflare、Callback、华为云、百度云、Porkbun、GoDaddy、Google Domain)
-url: https://github.com/dscao/hassio-addons/tree/master/ddns-go
+url: https://github.com/jnukylin/hassio-addons/tree/master/ddns-go
 image: dscao/{arch}-addon-ddns-go
 advanced: true
 arch:
