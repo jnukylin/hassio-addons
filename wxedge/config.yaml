@@ -1,0 +1,29 @@
+name: wxedge for Home Assistant
+version: v5.6.3
+slug: wxedge
+description: 利用空闲机器创收
+url: https://github.com/jnukylin/hassio-addons/tree/master/wxedge
+image: onething1/wxedge{arch}
+advanced: true
+arch:
+  - aarch64
+  - amd64
+hassio_api: true
+hassio_role: manager
+host_network: true
+ingress: true
+ingress_port: 18888
+init: false
+map:
+  - config:rw
+panel_icon: mdi:cloud
+panel_title: wxedge
+ports:
+  18888/tcp: null
+options: 
+  ddnsgo_time_seconds: 300
+schema:
+  ddnsgo_time_seconds: "int(60,)"
+startup: services
+privileged:
+- SYS_ADMIN
