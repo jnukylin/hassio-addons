@@ -20,10 +20,6 @@ panel_icon: mdi:cloud
 panel_title: wxedge
 ports:
   18888/tcp: null
-options: 
-  ddnsgo_time_seconds: 300
-schema:
-  ddnsgo_time_seconds: "int(60,)"
 startup: services
 privileged:
 - SYS_ADMIN
