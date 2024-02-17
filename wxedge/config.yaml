@@ -3,7 +3,7 @@ version: latest
 slug: wxedge
 description: 利用空闲机器创收
 url: https://github.com/jnukylin/hassio-addons/tree/master/wxedge
-image: onething1/wxedge/linux/{arch}
+image: onething1/wxedge
 advanced: true
 arch:
   - aarch64
