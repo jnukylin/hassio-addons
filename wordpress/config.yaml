@@ -1,0 +1,25 @@
+name: wordpress for Home Assistant
+version: v6.4.3
+slug: wordpress
+description: 利用性能过剩ha主机部署个人博客
+url: https://github.com/jnukylin/hassio-addons/tree/master/wordpress
+image: wordpress
+advanced: true
+arch:
+  - aarch64
+  - amd64
+hassio_api: true
+hassio_role: manager
+host_network: true
+ingress: true
+ingress_port: 4567
+init: false
+map:
+  - config:rw
+panel_icon: mdi:cloud
+panel_title: wxedge
+ports:
+  4567/tcp: 80/tcp
+startup: services
+privileged:
+- SYS_ADMIN
