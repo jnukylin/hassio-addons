@@ -1,5 +1,5 @@
 name: wxedge for Home Assistant
-version: v5.6.3
+version: latest
 slug: wxedge
 description: 利用空闲机器创收
 url: https://github.com/jnukylin/hassio-addons/tree/master/wxedge
