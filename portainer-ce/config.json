@@ -14,7 +14,7 @@
   "host_network": true,
   "docker_api": true,
   "hassio_api": true,
-  "image": "6053537/portainer-ce/{arch}",
+  "image": "6053537/portainer-ce",
   "ingress": true,
   "ingress_port": 1337,
   "ingress_stream": true,
